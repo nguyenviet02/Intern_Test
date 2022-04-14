@@ -31,6 +31,7 @@ a {
   height: 100%;
   background-color: #191818;
   color: #fff;
+  position: fixed;
 }
 .menu-container__main-menu {
   height: 100%;
@@ -52,6 +53,7 @@ a {
   width: 90%;
   height: 100%;
   padding: 1rem 10rem;
+  margin-left: 10%;
   background-color: #fff;
 }
 .content-container__logo {
@@ -89,7 +91,7 @@ a {
 .content-container__courses {
   width: 100%;
   height: fit-content;
-  background-color: red;
+  padding-bottom: 10rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -135,6 +137,7 @@ a {
   .content-container {
     width: 85%;
     padding: 1rem 8rem;
+    margin-left: 15%;
   }
   .content-container__logo {
     width: 100%;
@@ -162,6 +165,7 @@ a {
   .content-container {
     width: 80%;
     padding: 1rem 6rem;
+    margin-left: 20%;
   }
   .content-container__logo {
     width: 100%;
@@ -199,7 +203,6 @@ a {
 }
 @media screen and (max-width: 767.98px) {
   .content-container {
-    width: 80%;
     padding: 1rem 2rem;
   }
   .content-container__logo {
